@@ -1,0 +1,17 @@
+#借贷爆仓用户API接口#
+地址： https://defibox.io/api/lend/marginCall/list
+返回格式 ：
+{
+    "msg": "success", 
+    "code": 0, 
+    "data": [
+        {
+            "owner": "xxxx", 
+            "healthFactors": 0.7586213111836247
+        }, 
+        {
+            "owner": "xxxx", 
+            "healthFactors": 0.7933699447345893
+        }
+    ]
+}
