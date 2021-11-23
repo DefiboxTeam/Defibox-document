@@ -2,6 +2,10 @@
 
 GET /api/machineGunPool/getYieldByPairId
 入参：pairId  string
+     code    string
+     
+备注：入参不可为空，二选一即可。如果pairId 与 code 不匹配，以code为准。
+
 返回参数：
 {
     "code": 0,
@@ -33,5 +37,4 @@ desc： 年化描述。 如	挖矿年化、交易年化、节点年化、第三�
 https://dapp.defibox.io/api/machineGunPool/getYieldByPairId?pairId=12
 返回：
 {"code":0,"message":"success","data":[{"coin":"mine","yield_current":0.0127912934,"desc":"做市挖矿年化"},{"coin":"swap","yield_current":0.0428434586,"desc":"交易挖矿年化"},{"coin":"node","yield_current":0.0162033404,"desc":"节点收益年化"}]}
-
 
