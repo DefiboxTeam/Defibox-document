@@ -95,15 +95,6 @@ cleos transfer -c danchortoken testuseraaaa danchorsmart "11.0000 USN" "repay:1:
 cleos transfer -c danchortoken testuseraaaa danchorsmart "11.0000 USN" "repay:1:0"
 ```
 
-## 偿还USN，并减少抵押量 (用EOS支付利息)
-
-先查询合约数据库，获取抵押物id
-
-向合约帐号 danchorsmart 转账USN, memo格式:  "`repay2:抵押物id:质押率`" 
-
-```
-cleos transfer -c danchortoken testuseraaaa danchorsmart "11.0000 USN" "repay2:1:15000"
-```
 
 ## 仅偿还USN， 但不减少抵押量  (用抵押物支付利息)
 
