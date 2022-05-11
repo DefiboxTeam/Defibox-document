@@ -9,10 +9,11 @@ GET /api/machineGunPool/getLendYield
   "code": 0,
   "data": {
     "symbol": "USDT",   		    币种
-    "borrowYield": 0,				借贷挖矿年化
-    "depositYield": 0,				存入挖矿年化
-    "depositMineYield": 0,			存入年化
-    "borrowMineYield": 0			借贷年化
+    "borrowYield": 0,		            借贷挖矿年化
+    "depositYield": 0,			    存入挖矿年化
+    "depositMineYield": 0,		    存入年化
+    "borrowMineYield": 0,		    借贷年化
+    "exchangeRate": 0.0103891870            兑换率
   }
 
 
